@@ -1129,7 +1129,7 @@ class VueSysteme(Perspective):
 		# enlever les autres cadres
 		if self.cadreSelection:
 			self.cadreSelection.grid_forget()
-			self.boutonSelect.config(text="Selection >")
+			#self.boutonSelect.config(text="Selection >")
 			self.cadreSelection = None
 		else:
 			pass
